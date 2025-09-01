@@ -12,7 +12,7 @@ namespace StudentManagement{
             Teacher t1 = new Teacher("Naveen", 30, "Maths");
 
             Course course = new Course("OOP .NET", t1);
-            course.AddStudent(s1);
+            course.AddStudent(s1);//Abstraction
             course.AddStudent(s2);
 
             course.ShowCourseDetails();

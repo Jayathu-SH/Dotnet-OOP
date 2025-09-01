@@ -19,7 +19,7 @@ namespace StudentManagement.Models
 
         public void AddStudent(Student student)
         {
-            students.Add(student);
+            students.Add(student);//Add->abstraction
         }
 
         public void ShowCourseDetails()
@@ -29,7 +29,7 @@ namespace StudentManagement.Models
             CourseTeacher.ShowInfo();
 
             Console.WriteLine("\nEnrolled Students:");
-            foreach (var s in students)
+            foreach (var s in students)//s is a reference variable
             {
                 s.ShowInfo();
             }

@@ -1,16 +1,16 @@
 namespace StudentManagement.Models
 {
-    public class Teacher : Person
+    public class Teacher : Person//inheritence
     {
-        public string Subject { get; private set; }
+        public string Subject { get; private set; }//encapsulation
 
         public Teacher(string name, int age, string subject)
-        : base(name, age)
+        : base(name, age)//inheritence
         {
             Subject = subject;
         }
 
-        public override void ShowInfo()
+        public override void ShowInfo()//polymorphism
         {
             System.Console.WriteLine($"[Teacher] Name: {Name}, Age:{Age},Subject:{Subject}");
         }
