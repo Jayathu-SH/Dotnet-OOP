@@ -12,3 +12,4 @@ C:\Users\Jayathu\Desktop\dotnet oop\StudentManagement\obj\Debug\net9.0\refint\St
 C:\Users\Jayathu\Desktop\dotnet oop\StudentManagement\obj\Debug\net9.0\StudentManagement.pdb
 C:\Users\Jayathu\Desktop\dotnet oop\StudentManagement\obj\Debug\net9.0\StudentManagement.genruntimeconfig.cache
 C:\Users\Jayathu\Desktop\dotnet oop\StudentManagement\obj\Debug\net9.0\ref\StudentManagement.dll
+C:\Users\Jayathu\Desktop\dotnet oop\StudentManagement\obj\Debug\net9.0\StudentManagement.sourcelink.json
